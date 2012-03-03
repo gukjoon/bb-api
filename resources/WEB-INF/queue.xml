@@ -1,0 +1,22 @@
+<queue-entries>
+  <queue>
+    <name>order-processing</name>
+    <rate>1/s</rate>
+  </queue>
+  <queue>
+    <name>api-fetch</name>
+    <rate>1/s</rate>
+  </queue>
+  <queue>
+    <name>api-split</name>
+    <rate>1/s</rate>
+  </queue>
+  <queue>
+    <name>database-add</name>
+    <rate>1/s</rate>
+  </queue>
+  <queue>
+    <name>ds-delete</name>
+    <rate>1/s</rate>
+  </queue>
+</queue-entries>
